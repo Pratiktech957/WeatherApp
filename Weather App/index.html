@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="#">
+            <input id="city-name" type="text" placeholder="Enter your city name">
+            <input type="submit" value="Get weather">
+        </form>
+        <div class="weather-data">
+            <div class="icon"></div>
+            <div class="temp"></div>
+            <div class="desc"></div>
+
+            <div class="details">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <!-- Additional sections -->
+            <div class="extra-info">
+                <div class="location"></div> <!-- City and Country -->
+                <div class="sunrise"></div>  <!-- Sunrise time -->
+                <div class="sunset"></div>   <!-- Sunset time -->
+                <div class="air-quality"></div> <!-- Air quality -->
+            </div>
+
+            <!-- New Sections -->
+            <div class="extra-details">
+                <div class="wind-direction"></div>  <!-- Wind direction -->
+                <div class="pressure"></div>        <!-- Pressure -->
+                <div class="visibility"></div>      <!-- Visibility -->
+                <div class="cloud-coverage"></div>  <!-- Cloud coverage -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
